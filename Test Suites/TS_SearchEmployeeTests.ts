@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_SearchEmployeeTests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>9fe646a3-98ca-45cd-8e3a-936560f4a71e</testSuiteGuid>
+   <testCaseLink>
+      <guid>d9c5f7b1-2af8-4535-91da-5e5cf65c86ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_SearchEmployee_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>85a22661-2ede-41fb-bebd-acf8bb4de24c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TD_SearchEmployeeData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>85a22661-2ede-41fb-bebd-acf8bb4de24c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>keyword</value>
+         <variableId>26ead45a-21b7-49dc-b38f-7503ab17da3e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>85a22661-2ede-41fb-bebd-acf8bb4de24c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedName</value>
+         <variableId>ad39d1bd-68c3-44f5-80d3-3673244dd2cc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>85a22661-2ede-41fb-bebd-acf8bb4de24c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>shouldFound</value>
+         <variableId>4088be98-cfce-44ed-816e-106f2c721e77</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>85a22661-2ede-41fb-bebd-acf8bb4de24c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testCaseID</value>
+         <variableId>766a2146-7c62-4e60-8320-4747f9be1872</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

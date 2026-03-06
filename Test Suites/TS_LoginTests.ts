@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_LoginTests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>fd727eae-0480-4eda-be04-4d42ad8bdf12</testSuiteGuid>
+   <testCaseLink>
+      <guid>37700fba-13ee-402d-8855-4af1b7f7b2bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Login_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e8ec30f1-b884-48bb-8e5c-d6dbfb8d6710</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TD_LoginData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e8ec30f1-b884-48bb-8e5c-d6dbfb8d6710</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b59a75f0-9c79-4bd5-9e80-a96c4c287e7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e8ec30f1-b884-48bb-8e5c-d6dbfb8d6710</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b81db4f6-6f96-457a-8532-2a89a4a53352</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e8ec30f1-b884-48bb-8e5c-d6dbfb8d6710</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>4827dbd0-dab9-4753-886c-73141ea4f41b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e8ec30f1-b884-48bb-8e5c-d6dbfb8d6710</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testCaseID</value>
+         <variableId>ca15c019-391a-4139-8e1f-e28fc0fb474c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
